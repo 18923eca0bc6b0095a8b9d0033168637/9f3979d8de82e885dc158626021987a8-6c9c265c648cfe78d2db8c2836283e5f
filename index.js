@@ -6,8 +6,8 @@ client.on('warn', console.warn);
 client.on('error', console.error);
 
 client.on('ready', () => {
-    bot.user.setStatus('idle')
-    bot.user.setPresence({
+    client.user.setStatus('idle')
+    client.user.setPresence({
         game: {
             name: 'Never online due to school - Coming January, 2019',
             type: "PLAYING"
