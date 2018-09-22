@@ -5,7 +5,7 @@ client.on('warn', console.warn);
 
 client.on('error', console.error);
 
-bot.on('ready', () => {
+client.on('ready', () => {
     bot.user.setStatus('idle')
     bot.user.setPresence({
         game: {
